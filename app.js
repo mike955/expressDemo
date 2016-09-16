@@ -1,3 +1,9 @@
+'use strict'
+/***** import node.js librarie *****/
+
+/***** import third-party libraries *****/
+
+/***** import own libraries *****/
 import express from 'express';
 
 
