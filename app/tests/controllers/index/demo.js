@@ -4,16 +4,13 @@
 var  expect = require('chai').expect;
 
 /***** import own libraries *****/
-//import demo from '../../controllers/index/demo';
-//console.log(demo.add(1,2));
+import Demo from '../../../controllers/index/demo';
 
-var demo = require('../../../controllers/index/demo');
 describe('/', function(){
-	console.log(demo.demo);
 	it('should be return 3', function(){
 		var result;
 		try{
-			result = demo.demo.add(1,2);
+			result = Demo.add(1,2);
 			console.log(result)
 		}catch(error){
 			expect(error).to.not.exist;
@@ -23,3 +20,4 @@ describe('/', function(){
 })
 
 //sudo mocha --require babel-register demo.js
+//mocha --compilers js:babel-core/register demo.js

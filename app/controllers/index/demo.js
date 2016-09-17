@@ -9,7 +9,7 @@
 	//res.send("Hello World");
 };*/
 
-export class demo{
+export default class Demo{
 	static  add(a, b){
 		return a+b;
 	}

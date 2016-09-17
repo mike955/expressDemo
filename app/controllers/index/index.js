@@ -2,11 +2,10 @@
 
 import demo from './demo';
 
-exports.demo = demo.demo;
 
+//TODO   讲该文件夹下其他文件挂载到该文件下
+export default class Index{
 
-
-/*exports.demo = function(req, res, next){
-	console.log("-------------")
-	demo.demo;
-}*/
+}
+/*console.log(demo.add)
+exports.Demo = demo;*/

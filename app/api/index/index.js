@@ -3,11 +3,11 @@
 import express from 'express';
 
 
-import Index  from '../../controllers/index/index';
+import Demo  from '../../controllers/index/demo';
 
 const router = express.Router();
 
 router
-	.get('/', Index.demo);
+	.get('/', Demo.add);
 
 module.exports = router;	
